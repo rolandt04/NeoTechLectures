@@ -11,6 +11,7 @@ public class PrintingHours {
 		// 23:59
 
 		for (int hour = 0; hour < 24; hour++) {
+
 			for (int minute = 0; minute < 60; minute++) {
 				// System.out.println(hour + ":" + minute);
 				// 1. we need to change 0:0 to 00:00 (up to 10)
@@ -31,6 +32,7 @@ public class PrintingHours {
 					// case 4
 					System.out.println(hour + ":" + minute);
 				}
+
 			}
 		}
 

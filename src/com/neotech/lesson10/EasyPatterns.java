@@ -9,7 +9,7 @@ public class EasyPatterns {
 		// **
 		// *
 
-		// bad solution
+		// Bad solution
 		for (int i = 0; i < 5; i++) {
 			System.out.print("*");
 		}
@@ -31,8 +31,9 @@ public class EasyPatterns {
 		}
 
 		System.out.println();
-		// lets use nested loops here
-		// good solution
+
+		// Let's use nested loops here
+		// Good solution
 		for (int row = 5; row > 0; row--) {
 			for (int col = 0; col < row; col++) {
 				System.out.print("*");

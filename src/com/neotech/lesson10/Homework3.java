@@ -3,10 +3,8 @@ package com.neotech.lesson10;
 public class Homework3 {
 
 	public static void main(String[] args) {
-		/*
-		 * 3. Print numbers from 1 to 50 except those that are divisible by 3 (3,6,9) bc
-		 * 6/3 = 2 and remainder is 0
-		 */
+		// Print numbers from 1 to 50 except those that are divisible by 3
+		// (3,6,9) will be skipped, because 6/3 = 2 and remainder is 0
 
 		// 1st method - while loop
 		int i = 1;
@@ -22,7 +20,8 @@ public class Homework3 {
 		}
 
 		System.out.println();
-		// 2nd method - do while
+
+		// 2nd method - do while loop
 		int j = 1;
 		do {
 			if (j % 3 == 0) {
@@ -36,6 +35,7 @@ public class Homework3 {
 		} while (j <= 50);
 
 		System.out.println();
+
 		// 3rd method - for loop
 		for (int k = 1; k <= 50; k++) {
 			if (k % 3 == 0) {

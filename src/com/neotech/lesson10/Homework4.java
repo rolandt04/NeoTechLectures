@@ -5,19 +5,20 @@ import java.util.Scanner;
 public class Homework4 {
 
 	public static void main(String[] args) {
-		/*
-		 * 2. Create a program that will be asking user to apply for a credit card 10
-		 * times. As soon you get a "yes" from a user program should stop asking.
-		 * 
-		 */
+		// Create a program that will be asking user
+		// to apply for a credit card 10 times.
+		// As soon you get a "yes" from a user program should stop asking.
 
-		// use a for loop since there is number of iterations
-		// ask a max of ten times, if you get a yes before it, break the loop
+		// use a for loop since there is a number of iterations
+		// ask a max of ten times
+		// if you get a yes before it, break the loop
 
 		Scanner scan = new Scanner(System.in);
 		String input;
+
 		// ask user ten times
 		for (int i = 0; i < 10; i++) {
+
 			System.out.println("Do you want to apply for a credit card?");
 			input = scan.next();
 
@@ -25,6 +26,7 @@ public class Homework4 {
 				System.out.println("Perfect, good choice!");
 				break;
 			}
+			
 		}
 
 	}

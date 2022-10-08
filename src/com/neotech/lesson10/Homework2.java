@@ -5,17 +5,18 @@ import java.util.Scanner;
 public class Homework2 {
 
 	public static void main(String[] args) {
-		/*
-		 * 2. Write a program that asks user to enter his/her username and password
-		 * until user enters them correctly.
-		 */
+		// Write a program that asks user
+		// to enter his/her username and password
+		// until user enters them correctly.
 
 		// how do we decide?
 		// for or while or do while
-		// for is more suitable for a countable number of loops
+		// for-loop is more suitable for a countable number of loops
 		// here do while seems more suitable
 
 		Scanner scan = new Scanner(System.in);
+
+		// our own credetials
 		String userName = "shane";
 		String password = "123456";
 

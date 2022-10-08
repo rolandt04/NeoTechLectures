@@ -3,7 +3,9 @@ package com.neotech.lesson10;
 public class NestedLoop {
 
 	public static void main(String[] args) {
+
 		// iterate through a number 5 times
+
 		// outer loop
 		for (int i = 0; i < 5; i++) {
 
